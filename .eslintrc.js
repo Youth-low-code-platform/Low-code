@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true
   },
-  ignorePatterns: ['.eslintrc.js'],
+  ignorePatterns: ['.eslintrc.js', 'stylelint.config.js'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
